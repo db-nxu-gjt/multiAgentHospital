@@ -1,0 +1,196 @@
+{
+  "patients": [
+    {
+      "patient_id": "ZY20260728001",
+      "name": "李建国",
+      "gender": "男",
+      "age": 65,
+      "admission_id": "20260728001",
+      "department": "呼吸内科",
+      "attending_doctor": "张主任",
+      "admission_date": "2026-07-28",
+      "chief_complaint": "反复咳嗽、咳痰2月，加重伴呼吸困难1周",
+      "present_illness": "患者2月前无明显诱因出现咳嗽，咳白色黏痰，量中等，无发热、咯血。1周前上述症状加重，伴活动后呼吸困难，休息后可缓解。否认胸痛、心悸。",
+      "past_history": "吸烟史40年，约20支/日。高血压病史10年，不规律服药。否认糖尿病、冠心病。",
+      "personal_history": "吸烟40年，偶饮酒。",
+      "family_history": "父亲因肺癌去世。",
+      "physical_exam": "T 36.8℃，P 96次/分，R 22次/分，BP 145/90mmHg。桶状胸，双肺呼吸音低，可闻及散在哮鸣音及湿啰音。",
+      "lab_results": [
+        {
+          "item_name": "白细胞计数",
+          "value": "9.2",
+          "unit": "×10^9/L",
+          "reference_range": "4.0-10.0",
+          "abnormal": false,
+          "test_date": "2026-07-29",
+          "department": "检验科"
+        },
+        {
+          "item_name": "血红蛋白",
+          "value": "142",
+          "unit": "g/L",
+          "reference_range": "130-175",
+          "abnormal": false,
+          "test_date": "2026-07-29",
+          "department": "检验科"
+        },
+        {
+          "item_name": "NT-proBNP",
+          "value": "680",
+          "unit": "pg/mL",
+          "reference_range": "<300",
+          "abnormal": true,
+          "test_date": "2026-07-30",
+          "department": "检验科"
+        },
+        {
+          "item_name": "血糖",
+          "value": "6.8",
+          "unit": "mmol/L",
+          "reference_range": "3.9-6.1",
+          "abnormal": true,
+          "test_date": "2026-07-30",
+          "department": "检验科"
+        },
+        {
+          "item_name": "收缩压",
+          "value": "145",
+          "unit": "mmHg",
+          "reference_range": "90-140",
+          "abnormal": true,
+          "test_date": "2026-07-30",
+          "department": "心内科"
+        },
+        {
+          "item_name": "心率",
+          "value": "96",
+          "unit": "次/分",
+          "reference_range": "60-100",
+          "abnormal": false,
+          "test_date": "2026-07-30",
+          "department": "心内科"
+        }
+      ],
+      "imaging_reports": [
+        {
+          "modality": "CT",
+          "body_part": "胸部",
+          "findings": "双肺透亮度增高，肺纹理稀疏、紊乱，双上肺可见多发小结节影，最大径约1.5cm。纵隔淋巴结不大。",
+          "impression": "1. 肺气肿改变。2. 双上肺结节，建议随访或进一步检查。",
+          "report_date": "2026-07-29"
+        }
+      ],
+      "medications": [
+        {
+          "drug_name": "氨茶碱",
+          "dosage": "0.1g",
+          "frequency": "每日3次",
+          "start_date": "2026-07-28",
+          "status": "current"
+        },
+        {
+          "drug_name": "氨氯地平",
+          "dosage": "5mg",
+          "frequency": "每日1次",
+          "start_date": "2026-07-28",
+          "status": "current"
+        }
+      ]
+    },
+    {
+      "patient_id": "ZY20260731002",
+      "name": "王秀兰",
+      "gender": "女",
+      "age": 72,
+      "admission_id": "20260731002",
+      "department": "心内科",
+      "attending_doctor": "李医生",
+      "admission_date": "2026-07-31",
+      "chief_complaint": "突发胸痛2小时",
+      "present_illness": "患者2小时前突发胸骨后压榨性疼痛，向左肩及左上肢放射，伴大汗、恶心，无呕吐。自服硝酸甘油0.5mg症状未缓解。",
+      "past_history": "高血压病20年，2型糖尿病10年，高脂血症5年。",
+      "personal_history": "否认吸烟饮酒史。",
+      "family_history": "父亲有冠心病史。",
+      "physical_exam": "T 36.5℃，P 105次/分，R 24次/分，BP 160/95mmHg。神志清楚，痛苦面容，双肺底可闻及细湿啰音。心界不大，心率105次/分，律齐。",
+      "lab_results": [
+        {
+          "item_name": "肌钙蛋白I",
+          "value": "2.8",
+          "unit": "ng/mL",
+          "reference_range": "<0.04",
+          "abnormal": true,
+          "test_date": "2026-07-31",
+          "department": "检验科"
+        },
+        {
+          "item_name": "NT-proBNP",
+          "value": "1200",
+          "unit": "pg/mL",
+          "reference_range": "<300",
+          "abnormal": true,
+          "test_date": "2026-07-31",
+          "department": "检验科"
+        },
+        {
+          "item_name": "血糖",
+          "value": "8.5",
+          "unit": "mmol/L",
+          "reference_range": "3.9-6.1",
+          "abnormal": true,
+          "test_date": "2026-07-31",
+          "department": "检验科"
+        },
+        {
+          "item_name": "收缩压",
+          "value": "160",
+          "unit": "mmHg",
+          "reference_range": "90-140",
+          "abnormal": true,
+          "test_date": "2026-07-31",
+          "department": "心内科"
+        },
+        {
+          "item_name": "心率",
+          "value": "105",
+          "unit": "次/分",
+          "reference_range": "60-100",
+          "abnormal": true,
+          "test_date": "2026-07-31",
+          "department": "心内科"
+        }
+      ],
+      "imaging_reports": [
+        {
+          "modality": "X线",
+          "body_part": "胸部",
+          "findings": "心影增大，双肺门影增大，双肺纹理增粗，可见Kerley B线。",
+          "impression": "心影增大，肺淤血改变，考虑心功能不全。",
+          "report_date": "2026-07-31"
+        }
+      ],
+      "medications": [
+        {
+          "drug_name": "阿司匹林",
+          "dosage": "100mg",
+          "frequency": "每日1次",
+          "start_date": "2026-07-31",
+          "status": "current"
+        },
+        {
+          "drug_name": "阿托伐他汀",
+          "dosage": "20mg",
+          "frequency": "每晚1次",
+          "start_date": "2026-07-31",
+          "status": "current"
+        },
+        {
+          "drug_name": "二甲双胍",
+          "dosage": "0.5g",
+          "frequency": "每日3次",
+          "start_date": "2026-07-31",
+          "status": "current"
+        }
+      ]
+    }
+  ]
+}

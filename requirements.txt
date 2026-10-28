@@ -1,0 +1,34 @@
+# 医院虚拟会诊系统 - Python依赖
+
+# 桌面GUI
+PyQt6>=6.6.0
+PyQt6-Qt6>=6.6.0
+
+# 数据处理
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+
+# 机器学习/数据分析
+scikit-learn>=1.3.0
+
+# 数据库
+sqlalchemy>=2.0.0
+
+# HTTP请求与API
+requests>=2.31.0
+
+# 自然语言处理
+jieba>=0.42.1
+
+# 测试
+pytest>=7.4.0
+pytest-qt>=4.2.0
+pytest-cov>=4.1.0
+
+# 日志与配置
+pyyaml>=6.0.1
+
+# 可选：用于高级NLP和LLM
+# transformers>=4.35.0
+# torch>=2.1.0
